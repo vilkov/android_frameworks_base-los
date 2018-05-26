@@ -2130,7 +2130,7 @@ class DatabaseHelper extends SQLiteOpenHelper {
         }
         // Apply the same setting to the notification vibrate value
         vibrateSetting = AudioSystem.getValueForVibrateSetting(vibrateSetting,
-                AudioManager.VIBRATE_TYPE_NOTIFICATION, vibrateSetting);
+                AudioManager.VIBRATE_TYPE_NOTIFICATION, AudioManager.VIBRATE_SETTING_ONLY_SILENT);
 
         SQLiteStatement stmt = null;
         try {
