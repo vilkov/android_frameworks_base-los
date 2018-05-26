@@ -6109,8 +6109,8 @@ public final class Settings {
          * What happens when the user presses the Power button while in-call
          * and the screen is on.<br/>
          * <b>Values:</b><br/>
-         * 1 - The Power button turns off the screen and locks the device. (Default behavior)<br/>
-         * 2 - The Power button hangs up the current call.<br/>
+         * 1 - The Power button turns off the screen and locks the device.<br/>
+         * 2 - The Power button hangs up the current call. (Default behavior)<br/>
          *
          * @hide
          */
@@ -6133,7 +6133,7 @@ public final class Settings {
          * @hide
          */
         public static final int INCALL_POWER_BUTTON_BEHAVIOR_DEFAULT =
-                INCALL_POWER_BUTTON_BEHAVIOR_SCREEN_OFF;
+                INCALL_POWER_BUTTON_BEHAVIOR_HANGUP;
 
         /**
          * What happens when the user presses the Back button while in-call
